@@ -11,3 +11,6 @@ las letras son:
 w+ lee y escribe son iguales a r+ 
 saludo a todos los alumnos
 Con esto terminamos
+
+
+.....
