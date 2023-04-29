@@ -1,0 +1,51 @@
+//Ejercicio 01//
+
+function sumarNumeros(...numeros) {
+  let suma = 0;
+  for (let i = 0; i < numeros.length; i++) {
+    if (typeof numeros[i] === 'number') {
+      suma += numeros[i];
+    }
+  }
+  return suma;
+}
+
+
+//Ejercicio 02//
+
+function multiplicarNumeros(...numeros) {
+  let producto = 1;
+  for (let i = 0; i < numeros.length; i++) {
+    if (typeof numeros[i] === 'number') {
+      producto *= numeros[i];
+    }
+  }
+  return producto;
+}
+
+//Ejercicio 03//
+
+function imprimirNumerosDescendentes(num) {
+  if (num >= 1) {
+    console.log(num);
+    imprimirNumerosDescendentes(num - 1);
+  }
+}
+
+
+//Ejercicio 04//
+
+function calcularPagoConImpuesto(pagoSinImpuesto, impuesto) {
+  let pagoTotal = pagoSinImpuesto + (pagoSinImpuesto * (impuesto / 100));
+  return pagoTotal;
+}
+
+
+
+//Ejercicio 05//
+
+// Función para convertir de grados Farenheit a Celsius
+function farenheitACelsius(gradosFarenheit) {
+  let gradosCelsius = (gradosFarenheit - 32) * (5 / 9);
+  return gradosCelsius;
+}
