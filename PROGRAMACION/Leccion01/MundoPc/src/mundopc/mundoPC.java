@@ -44,11 +44,19 @@ public class mundoPC {
         Monitor monitorSamnsung = new Monitor("Samnsung", 19); //IMPORTAR LA CLASE
         Teclado tecladoSamnsung = new Teclado("Bluetooth","Samnsung"); //IMPORTAR LA CLASE
         Raton ratonSamnsung = new Raton("Bluetooth", "Samnsung");
+        //Creación de más objetos //Beatriz
+         Monitor monitorSamnsung = new Monitor("Lenovo", 20); //IMPORTAR LA CLASE
+        Teclado tecladoSamnsung = new Teclado("Bluetooth","Genius"); //IMPORTAR LA CLASE
+        Raton ratonSamnsung = new Raton("Bluetooth", "Genius");
         
         Computadora computadoraSamnsung = new Computadora("Computadora Samnsung",monitorSamnsung,tecladoSamnsung,ratonSamnsung);
         
         Monitor monitorLG = new Monitor("LG", 19); //IMPORTAR LA CLASE
         Teclado tecladoLG = new Teclado("Bluetooth","LG"); //IMPORTAR LA CLASE
+        Raton ratonLG = new Raton("Bluetooth", "LG");
+        //Beatriz
+        Monitor monitorLG = new Monitor("Lenovo", 20); //IMPORTAR LA CLASE
+        Teclado tecladoLG = new Teclado("Bluetooth","Genius");
         Raton ratonLG = new Raton("Bluetooth", "LG");
         
         Computadora computadoraLG = new Computadora("Computadora LG",monitorLG,tecladoLG,ratonLG);
