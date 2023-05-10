@@ -6,13 +6,13 @@
 
 - Matías Olmedo
 
--Matías Kudaka
+- Matías Kudaka
 
--Nicolás Calvo
+- Nicolás Calvo
 
--Beatriz Ramírez
+- Beatriz Ramírez
 
--Daniela Armijo
+- Daniela Armijo
 
 Nos demoramos en el inicio del trabajo, ya nos pondremos al día
 
