@@ -1,5 +1,8 @@
 # Code-People-Tercer-Semestre
 
+[![recursosprogramadores.png](https://i.postimg.cc/Wzp7m3Cb/recursosprogramadores.png)](https://postimg.cc/tZfPpX9L)
+
+
 :pushpin: Integrantes:
 
 - Marianela Orozco
