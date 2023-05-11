@@ -7,11 +7,22 @@ let persona = {
     nombre: 'Carlos',
     apellido: 'Gil',
     email: ´cgil@gmail.com',
-    edad: 30,
+    edad: 28
+    idioma: 'ES',
+    get lang(){
+        return this.idioma.toUpperCase();
+    },
+    set lag(lang){
+        this.idioma = lang.toUpperCase();
+    }
     nombreCompleto: function(){ //método o función en Javascript
-        return this.nombre+''+this.apellido;
+        return this.nombre+' '+this.apellido;
+    },
+    get nombreEdad(){ //Este es el método get
+        return 'El nombre es: 'this.nombre+' edad: '+this.edad;
     }
 }
+
 //Diferentes formas de crear un Objeto
 console.log(persona.nombre); Carlos
 console.log(persona.apellido); Gil
@@ -45,7 +56,6 @@ console.log(persona.nombre+', '+persona.apellido);
 for(nombrePropiedad in persona){
     console.log(persona[nombrePropiedad]);
 }
-
 //Número 3: La función Object.values()
 console.log('Distintas formas de imprimir un objeto forma 3');
 let personaArray = Object.values(persona);
@@ -55,6 +65,12 @@ console.log(personaArray);
 console.log('Distintas formas de imprimir un objeto forma 4')
 let personasString = JSON.stringify(persona);
 console.log(personasString);
+
+console.log('Comenzamos a utilizar el método get')
+console.log(persona.nombreEdad);
+
+console.log('Comenzamos con el método get para idiomas');
+console.log(persona.lang);
 
 
 
