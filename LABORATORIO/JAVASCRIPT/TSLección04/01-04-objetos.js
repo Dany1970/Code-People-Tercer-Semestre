@@ -22,7 +22,6 @@ let persona = {
         return 'El nombre es: 'this.nombre+' edad: '+this.edad;
     }
 }
-
 //Diferentes formas de crear un Objeto
 console.log(persona.nombre); Carlos
 console.log(persona.apellido); Gil
