@@ -7,7 +7,13 @@ let persona = {
     nombre: 'Carlos',
     apellido: 'Gil',
     email: ´cgil@gmail.com',
-    edad: 30,
+    edad: 28,idioma: 'ES',
+    get lang(){
+        return this.idioma.toUpperCase();
+    },
+    set lag(lang){
+        this.idioma = lang.toUpperCase();
+    
     nombreCompleto: function(){ //método o función en Javascript
         return this.nombre+''+this.apellido;
     }
