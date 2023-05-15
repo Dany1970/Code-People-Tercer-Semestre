@@ -70,6 +70,5 @@ console.log(persona.nombreEdad);
 
 console.log('Comenzamos con el método get para idiomas');
 console.log(persona.lang);
-
-
+}
 
