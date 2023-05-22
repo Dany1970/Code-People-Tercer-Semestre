@@ -1,0 +1,30 @@
+package test;
+
+public class TestSobreescritura´{
+
+    public static void main(String[] arg) {
+        Gerente gerente1 = new Gerente("Jose", 5000, "Sistemas");
+        System.out.println("gerente1=" + gerente1.obtenerDetalles());
+    }
+}
+
+
+
+
+
+package domain;
+
+public class Gerente exends Empleado {
+ private String departamento;
+
+ public Gerente (Strino);
+    this.departamento =departamento;
+g nombre,double sueldo, String departamento) {
+    super(nombre,sueld
+
+ }
+}
+@Override
+public String obtenerDetalles () {
+    return super.obtenerDetalles ()+",Departamento: "+this.departamento;
+}
