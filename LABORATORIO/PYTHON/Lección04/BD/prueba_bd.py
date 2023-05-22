@@ -15,15 +15,11 @@ cursor = conexion.cursor()
 sentencia = 'SELECT * FROM persona'
 # De esta manera ejecutamos la sentencia
 cursor.execute(sentencia)
-# Recuperamos todos los registros que seran una lista con tuplas
+# Recuperamos todos los registros que serán una lista con tuplas
 registros = cursor.fetchall()
 # mostramos
 print(registros)
 
-# cerramos la conexion y el cursor
+# cerramos la conexión y el cursor
 cursor.close()
 conexion.close()
-
-
-
-
