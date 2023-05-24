@@ -7,14 +7,22 @@ let persona = {
     nombre: 'Carlos',
     apellido: 'Gil',
     email: ´cgil@gmail.com',
+<< Beatriz
     edad: 28
     idioma: 'ES',
+
+    edad: 28,idioma: 'ES',
+
     get lang(){
         return this.idioma.toUpperCase();
     },
     set lag(lang){
         this.idioma = lang.toUpperCase();
+
     }
+
+    
+
     nombreCompleto: function(){ //método o función en Javascript
         return this.nombre+' '+this.apellido;
     },
@@ -37,8 +45,18 @@ persona2.telefono = '5492618282821';
 console.log(persona2.telefono); 5492618282
 console.log('Creamos un nuevo objeto');
 console.log(persona['apellido']); //Accedemos como si fuera un array 
+
 console.log('Usamos el ciclo for in');
 //for in acedemos al objeto como si fuera un array
+
+
+
+//Como acceder a propiedades objeto //console.log
+
+//Como acceder a propiedades objeto
+> 9e03a341e4918761ec35acb40888c4b0d94d5150
+//for in
+
 for(propiedad in persona){
     console.log(propiedad); nombre, apellido, email, edad, nombreCompleto
     console.log(persona[propiedad]); Carlos, Gil, cgil@gmail.com, 30,    
