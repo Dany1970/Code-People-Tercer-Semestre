@@ -19,6 +19,10 @@
 
 Nos demoramos en el inicio del trabajo, ya nos pondremos al día
 
-:heavy_check_mark: Primera semana - Scrum Master Daniela Armijo
+:heavy_check_mark: Primera Semana - Scrum Master Daniela Armijo
 
-:heavy_check_mark: Segunda semana - Scrum Master Matias Kudaka
+:heavy_check_mark: Segunda Semana - Scrum Master Matias Kudaka
+
+:heavy_check_mark: Tercera Semana - Scrum Master Nicolas Calvo
+
+:heavy_check_mark: Cuarta Semana - Scrum Master Marianela Orozco
