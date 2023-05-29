@@ -26,3 +26,6 @@ Nos demoramos en el inicio del trabajo, ya nos pondremos al día
 :heavy_check_mark: Tercera Semana - Scrum Master Nicolas Calvo
 
 :heavy_check_mark: Cuarta Semana - Scrum Master Marianela Orozco
+
+:heavy_check_mark: Cuarta Semana - Scrum Master Beatriz Ramírez
+
