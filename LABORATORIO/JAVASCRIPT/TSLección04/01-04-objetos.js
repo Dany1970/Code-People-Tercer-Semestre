@@ -61,7 +61,7 @@ for(propiedad in persona){
     console.log(propiedad); nombre, apellido, email, edad, nombreCompleto
     console.log(persona[propiedad]); Carlos, Gil, cgil@gmail.com, 30,    
 }
-console.log('cambiamos y eliminamos un eror'); //CAmbiamos y elmiminamos un error
+console.log('cambiamos y eliminamos un error'); //CAmbiamos y elmiminamos un error
 persona.apellida = 'Betacncud'; //Cambiamos dinamicamente un valor del objeto
 delete persona.apellida; //Eliminamos el error
 console.log(persona); ...',apellido: 'Gil', email: cgil@gmail.com, edad: 30, 
