@@ -29,3 +29,5 @@ Nos demoramos en el inicio del trabajo, ya nos pondremos al día
 
 :heavy_check_mark: Quinta Semana - Scrum Master Beatriz Ramírez
 
+  ![Programmers](https://media.tenor.com/rmNGGmy9nKgAAAAM/project-app.gif)
+
