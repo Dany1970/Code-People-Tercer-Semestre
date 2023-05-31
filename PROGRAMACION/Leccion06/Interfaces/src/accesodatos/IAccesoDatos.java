@@ -1,3 +1,4 @@
+
 package accesodatos;
 
 //A diferencia de una clase, tenemos la palabra interface
@@ -8,6 +9,7 @@ public interface IAccesoDatos {
     //Una interface no tiene constructores, va a tener métodos, todos abstractos
     
     //Método insertar es abstracto y sin cuerpo
+
     void insertar();
     
     void listar();
@@ -15,6 +17,5 @@ public interface IAccesoDatos {
     void actualizar();
     
     void eliminar();
-   
-    
+
 }
