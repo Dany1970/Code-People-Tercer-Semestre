@@ -3,6 +3,11 @@
 [![recursosprogramadores.png](https://i.postimg.cc/Wzp7m3Cb/recursosprogramadores.png)](https://postimg.cc/tZfPpX9L)
 
 
+
+![https://project-files.picsart.com/project_files/aae1b1b1-825e-4128-b119-ab7fa794619a.png?type=webp&to=min&r=202
+](https://project-files.picsart.com/project_files/aae1b1b1-825e-4128-b119-ab7fa794619a.png?type=webp&to=min&r=202)
+
+
 :pushpin: Integrantes:
 
 - Marianela Orozco
@@ -29,5 +34,5 @@ Nos demoramos en el inicio del trabajo, ya nos pondremos al día
 
 :heavy_check_mark: Quinta Semana - Scrum Master Beatriz Ramírez
 
-  ![Programmers](https://media.tenor.com/rmNGGmy9nKgAAAAM/project-app.gif)
+ 
 
