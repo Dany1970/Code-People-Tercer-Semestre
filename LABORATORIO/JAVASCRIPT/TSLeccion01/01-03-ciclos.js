@@ -48,7 +48,7 @@ for(let contando = 0; contando <= 10; contando++){
 console.log("Termina el ciclo ");
 
 //Ejercicio para asistencia Ciclo WHILE
-//Ejercicio para asistencia  CICLO WHILE Nicolas Calvo// 
+
 
 //Imprimir 5 numeros del 1 al 5 Python//
  let maximo=5;
