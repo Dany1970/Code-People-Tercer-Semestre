@@ -45,6 +45,6 @@ base de datos de la entidad
 Persona</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>570</x><y>270</y><w>30</w><h>130</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;80;10;110;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>150</x><y>480</y><w>320</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>300;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>150</x><y>320</y><w>100</w><h>190</h></coordinates><panel_attributes>lt=-
 m1=0..n
 m2=0..1
-teaches to &gt;</panel_attributes><additional_attributes>10;170;10;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>60</x><y>40</y><w>640</w><h>570</h></coordinates><panel_attributes>acceso_datos
+teaches to &gt;</panel_attributes><additional_attributes>10;170;10;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>70</x><y>50</y><w>640</w><h>570</h></coordinates><panel_attributes>acceso_datos
 --
 bg=white</panel_attributes><additional_attributes></additional_attributes></element></diagram>
