@@ -34,5 +34,7 @@ Nos demoramos en el inicio del trabajo, ya nos pondremos al día
 
 :heavy_check_mark: Quinta Semana - Scrum Master Beatriz Ramírez
 
+:heavy_check_mark: Sexta Semana - Scrum Master Nicolas Calvo
+
  
 
