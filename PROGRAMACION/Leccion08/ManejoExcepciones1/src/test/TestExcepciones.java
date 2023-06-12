@@ -1,28 +1,15 @@
-
 package test;
-
-import static aritmetica.Aritmetica.division;
-import excepciones.OperacionExcepcion;
 
 public class TestExcepciones {
     public static void main(String[] args) {
         int resultado = 0;
         try{
-            resultado = division(10, 0);
-        }catch(OperacionExcepcion e){
-            System.out.println("Ocurrio un error de tipo OperacionesException");
-            System.out.println(e.getMessage());
-        }catch(Exception e){
-            System.out.println("Ocurrio un Error");
-            e.printStackTrace(System.out); //se conoce como la pila de excepciones
-            System.out.println(e.getMessage());
-                    
+            resultado = 10/0;
+            } catch (Exception e){
+            System.out.println("Ocurrio un errror");
+            e.printStackTrace(System.out);
+            }
+            System.out.println("La variable de resutlado tiene como valor: "+resultado);
         }
-        finally{
-            System.out.println("Se reviso la divicion entre 0");
-        }
-        
-        System.out.println("La variable de resultado tiene valor: "+resultado);
     
-    }
 }
