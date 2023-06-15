@@ -42,4 +42,7 @@ Persona
 Responsabilidades:
 Realizar las operaciones sobre la
 base de datos de la entidad
-Persona</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>270</y><w>30</w><h>130</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>130</x><y>480</y><w>350</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>330;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>130</x><y>310</y><w>30</w><h>200</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;10;180</additional_attributes></element></diagram>
+Persona</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>570</x><y>270</y><w>30</w><h>130</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;80;10;110;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>150</x><y>480</y><w>320</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>300;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>150</x><y>310</y><w>100</w><h>200</h></coordinates><panel_attributes>lt=-
+m1=0..n
+m2=0..1
+teaches to &gt;</panel_attributes><additional_attributes>10;180;10;10</additional_attributes></element></diagram>
