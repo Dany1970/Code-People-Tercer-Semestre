@@ -38,6 +38,9 @@ Nos demoramos en el inicio del trabajo, ya nos pondremos al día
 
 :heavy_check_mark: Séptima Semana - Scrum Master Matías Olmedo
 
+:heavy_check_mark: Séptima Semana - Scrum Master Nicolas Calvo
+
+
 
 
 
