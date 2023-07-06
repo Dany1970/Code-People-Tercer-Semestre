@@ -37,5 +37,4 @@ console.log(Array.isArray(autos)); //booleano
 //segunda
 console.log(autos instanceof Array); //booleano
 
-
-
+// modificación

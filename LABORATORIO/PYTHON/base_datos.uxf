@@ -1,0 +1,48 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>80</x><y>100</y><w>210</w><h>220</h></coordinates><panel_attributes>&lt;&lt;conexión&gt;&gt;
+--
+-DATABASE: Sptring
+-USERNAME: String
+-PASSWORD: String
+-HOST: String
+-conexión: conexión
+-cursor: Cursor
+--
++obtenerConexion(cls):Conexion
++obtenerCursor(cls):Cursor
++cerrar(cls)
+--
+Responsabilidades:
+Administrar la conexión a la base 
+de datos
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>470</x><y>100</y><w>200</w><h>180</h></coordinates><panel_attributes>     Persona
+--
+-id_persona: int
+-nombre: String
+-apellido: String
+-email: String
+--
++__str__():String
++metodo Get/set de cada atributo
+--
+Responsabilidades:
+Crear objetos de la entidad de 
+Persona
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>460</x><y>380</y><w>210</w><h>220</h></coordinates><panel_attributes>   PersonaDAO
+--
+-SELECCIONAR: String
+-INSERTAR: String
+-ACTUALIZAR: String
+-ELIMINAR: String
+--
++seleccionar(cls)
++insertar(cls, persona)
++actualizar(cls, persona)
++elininar(cls, persona)
+--
+Responsabilidades:
+Realizar las operaciones sobre la
+base de datos de la entidad
+Persona</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>570</x><y>270</y><w>30</w><h>130</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;80;10;110;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>150</x><y>480</y><w>320</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>300;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>150</x><y>310</y><w>100</w><h>200</h></coordinates><panel_attributes>lt=-
+m1=0..n
+m2=0..1
+teaches to &gt;</panel_attributes><additional_attributes>10;180;10;10</additional_attributes></element></diagram>
